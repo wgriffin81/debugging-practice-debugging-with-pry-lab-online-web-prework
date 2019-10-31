@@ -5,6 +5,7 @@ class Person
     @name = name
     @candy_lover = candy_lover
   end
+ 
   def tall?
     true
   end
