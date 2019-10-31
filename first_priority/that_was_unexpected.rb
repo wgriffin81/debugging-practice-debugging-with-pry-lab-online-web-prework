@@ -13,7 +13,7 @@ class Person
   def basketball_player?
     false
   end
-
+binding.pry
   def likes_candy?
     true
   end
