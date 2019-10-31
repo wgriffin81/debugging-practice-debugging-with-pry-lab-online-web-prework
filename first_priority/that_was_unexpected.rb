@@ -4,7 +4,6 @@ class Person
   def initialize(name, candy_lover)
     @name = name
     @candy_lover = candy_lover
-    pry.binding
   end
 
   def tall?
@@ -22,6 +21,7 @@ class Person
   def ballin_candy_lover?
     if @candy_lover == true
       "Aw sweet, this cat loves them some candy!"
+      pry.binding
     else
       10.times do
         "not a ballin candy lover"
